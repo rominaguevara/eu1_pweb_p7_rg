@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 3px;
+    font-size: 15px;
+    color: #8b2f43;
+}
+
+input {
+    width: 280px;
+    height: 30px;
+    border: 2px solid #302b2f;
+    border-radius: 5px;
+    background: white;
+}
+
+h2 {
+    margin: 10px 2px;
+    width: 180px;
+    color: #8b2f43;
+}
+
+form {
+    padding: 30px 20px 30px;
+    width: 300px;
+    height: 600px;
+    background: #c9b0c6;
+}
+
+button {
+    background: #a79c9c;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    color: #8b2f43;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 3px 5px #8b2f43;
+}
+
+.guardar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.json {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
